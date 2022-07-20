@@ -1,1 +1,63 @@
+Test Case 1: Create New Oppurtunity
 
+Test Steps:
+
+1. Login to https://login.salesforce.com
+2. Click on toggle menu button from the left corner
+3. Click view All and click Sales from App Launcher
+4. Click on Opportunity tab 
+5. Click on New button
+6. Enter Opportunity name as 'Salesforce Automation by Your Name,Get the text and Store it 
+7. Choose close date as Today
+8. Select 'Stage' as Need Analysis
+9. click Save and Verify Oppurtunity Name
+
+Expected Result:
+New Opportunity should be created with name as  'Salesforce Automation by Your Name'
+---------------------------------------------------------------------------------------------------------
+Test Case 2: 2.Edit Oppurtunity
+Test Steps:
+
+1. Login to https://login.salesforce.com
+2. Click on toggle menu button from the left corner
+3. Click view All and click Sales from App Launcher
+4. Click on Opportunity tab 
+5. Search the Opportunity 'Salesforce Automation by Your Name'
+6. Click on the Dropdown icon and Select Edit
+7. Choose close date as Tomorrow date
+8. Select 'Stage' as Perception Analysis
+9. Select Deliver Status as In Progress
+10. Enter Description as SalesForce
+11. Click on Save and Verify Stage as Perception Analysis
+
+Expected Result:
+The Oppurtunity is Edited Successfully
+-----------------------------------------------------------------------------------------------------------
+Test Case 3:  Delete Oppurtunity
+
+Test Steps:
+1. Login to https://login.salesforce.com
+2. Click on toggle menu button from the left corner
+3. Click view All and click Sales from App Launcher
+4. Click on Opportunity tab 
+5. Search the Opportunity 'Salesforce Automation by Your Name'
+6. Click on  the Dropdown icon and Select Delete
+7. Verify Whether Oppurtunity is Deleted using Oppurtunity Name
+
+Expected result:
+Oppurtunity is Successfully deleted
+------------------------------------------------------------------------------------------------------------
+Test Case 4: Create Opportunity without Mandatory fields
+
+Test Steps:
+1. Login to https://login.salesforce.com
+2. Click on toggle menu button from the left corner
+3. Click view All and click Sales from App Launcher
+4. Click on Opportunity tab 
+5. Click on New button
+6. Choose Close date as Tomorrow Date
+7. Click on save 
+8. Verify the Alert message (Complete this field) displayed for Name and Stage
+Expected Result:
+Complete this field message should be displayed for Name and Stage fields.
+---------------------------------------------------------------------------------------------------------------
